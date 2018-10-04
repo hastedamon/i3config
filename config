@@ -106,16 +106,17 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-set $workspace1 "  "
-set $workspace2 "  "
-set $workspace4 "  "
-set $workspace3 "  "
-set $workspace5 "  "
-set $workspace6 "  "
-set $workspace7 "  "
-set $workspace8 "  "
-set $workspace9 "  "
-set $workspace10 "  "
+# icons from Font Awesome https://fontawesome.com/cheatsheet?from=io
+set $workspace1 "  " # Firefox
+set $workspace2 "  " # Terminal
+set $workspace4 "  " # Windows icon
+set $workspace3 "  " # PC icon
+set $workspace5 "  " # Chat
+set $workspace6 "  " # Sun
+set $workspace7 "  " # Moon
+set $workspace8 "  " # Locker
+set $workspace9 "  " # Spotify
+set $workspace10 "  " # Soundcloud
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
